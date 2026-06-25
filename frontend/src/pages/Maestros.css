@@ -1,0 +1,20 @@
+/* Maestros.css */
+
+.maestros-titulo {
+  margin: 0;
+}
+
+.maestros-subtitulo {
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.formulario-maestro-compact {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.input-codigo-maestro {
+  width: 120px;
+  text-transform: uppercase;
+}

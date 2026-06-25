@@ -1,0 +1,17 @@
+/* PersonaExpedientesModal.css */
+
+.tabla-expedientes {
+  margin-top: 20px;
+}
+
+.rol-texto {
+  font-weight: bold;
+}
+
+.rol-actor {
+  color: #52c41a; /* Verde */
+}
+
+.rol-otro {
+  color: #1890ff; /* Azul */
+}

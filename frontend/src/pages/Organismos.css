@@ -1,0 +1,16 @@
+/* Organismos.css */
+
+.organismos-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.organismos-titulo {
+  margin: 0;
+}
+
+.organismos-subtitulo {
+  color: #8c8c8c;
+  margin: 0;
+}

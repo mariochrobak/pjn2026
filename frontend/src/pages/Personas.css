@@ -1,0 +1,16 @@
+/* Personas.css */
+
+.personas-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personas-titulo {
+  margin: 0;
+}
+
+.personas-subtitulo {
+  color: #8c8c8c;
+  margin: 0;
+}

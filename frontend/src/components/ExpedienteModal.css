@@ -1,0 +1,29 @@
+/* ExpedienteModal.css */
+
+.modal-form-expediente {
+  margin-top: 20px;
+}
+
+
+.select-organismo {
+  width: 220px;
+}
+
+.select-tipo {
+  width: 120px;
+}
+
+
+.fila-involucrado {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: baseline;
+}
+
+.select-persona {
+  width: 350px;
+}
+
+.select-vinculo {
+  width: 180px;
+}

@@ -1,0 +1,17 @@
+services:
+  backend:
+    image: mariochrobak/mesa-backend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+
+  frontend:
+    image: mariochrobak/mesa-frontend:latest
+    ports:
+      - "5173:5173"
+    environment:
+      - IS_DOCKER=true
+    depends_on:
+      - backend

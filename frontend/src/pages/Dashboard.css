@@ -1,0 +1,61 @@
+/* Dashboard.css */
+
+.dashboard-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.dashboard-titulo {
+  margin: 0;
+}
+
+.dashboard-subtitulo {
+  color: #8c8c8c;
+  margin: 0;
+}
+
+
+.tarjeta-totalizador {
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border-radius: 8px;
+}
+
+.titulo-totalizador {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+}
+
+
+.estadistica-totalizador .ant-statistic-content {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.icono-totalizador {
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+
+.icono-calendario-azul {
+  color: #1890ff;
+}
+
+.icono-18 {
+  font-size: 18px;
+}
+
+.texto-vacio {
+  color: #8c8c8c;
+}
+
+.contenedor-grafico {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}

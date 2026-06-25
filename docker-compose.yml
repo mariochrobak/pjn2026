@@ -1,0 +1,33 @@
+services:
+  # --- BACKEND ---
+  
+  backend:
+    image: mariochrobak/mesa-backend:latest  
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=development
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+  # --- FRONTEND ---
+  
+  frontend:
+    image: mariochrobak/mesa-frontend:latest # Agregás esta línea
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      - IS_DOCKER=true 
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend

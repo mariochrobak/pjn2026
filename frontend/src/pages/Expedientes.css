@@ -1,0 +1,16 @@
+/* Expedientes.css */
+
+.expedientes-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expedientes-titulo {
+  margin: 0;
+}
+
+.expedientes-subtitulo {
+  color: #8c8c8c;
+  margin: 0;
+}
