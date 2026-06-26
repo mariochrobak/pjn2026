@@ -48,8 +48,8 @@ Este proyecto está construido bajo una arquitectura cliente-servidor (Frontend 
 
 ### 1. Clonar el repositorio e iniciar aplicación desde código fuente
 ```bash
-git clone https://github.com/mariochrobak/jusneuquen2026
-cd jusneuquen2026
+git clone https://github.com/mariochrobak/pjn2026
+cd pjn2026
 npm install
 
 cd frontend
